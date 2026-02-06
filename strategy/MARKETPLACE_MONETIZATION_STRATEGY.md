@@ -412,18 +412,88 @@ const successMetrics = {
 };
 ```
 
+---
+
+## Policy Marketplace: The Judgment Layer (Construction Vertical)
+
+### Overview
+
+The Three-Tier Framework reveals a third marketplace tier beyond Skills: **Policy artifacts** that govern how AI behaves. Procore Helix's launch creates demand for governance that Procore can't supply, making this tier commercially viable.
+
+| Marketplace | Framework Tier | What's Sold | Seller Persona | Pricing |
+|-------------|---------------|-------------|----------------|---------|
+| **Skills Marketplace** | Automation | Cross-system outcomes | Developers (TypeScript) | Per-run |
+| **Policy Marketplace** | Judgment | Governance artifacts | Domain experts (construction professionals) | Per-project/month |
+
+### Policy Marketplace Products
+
+1. **Policy Templates** -- Versioned compliance rule sets per project type, jurisdiction, client
+2. **Trust Profiles** -- Per-project AI governance configuration (data visibility, action scope, auto-approval thresholds)
+3. **Approval Workflows** -- Human-in-the-loop chains that cross system boundaries
+4. **Prompt Libraries** -- Construction-domain prompt templates encoding expertise
+
+### Revenue Model
+
+```
+Policy Template: "Federal/DoD Compliance"
+- Author: Construction compliance consultant
+- Price: $99/project/month
+- Author keeps: 70% ($69.30)
+- WORKWAY keeps: 30% ($29.70)
+
+Applied to 50 federal projects across 8 GCs:
+- Monthly revenue: $4,950
+- Author monthly income: $3,465
+- WORKWAY monthly income: $1,485
+```
+
+### New Seller Persona
+
+The Policy Marketplace attracts sellers that the Skills Marketplace can't: **construction professionals** who aren't developers but have deep domain expertise.
+
+- Compliance officers encoding jurisdictional requirements
+- Safety managers defining observation and escalation protocols
+- Construction lawyers encoding documentation standards
+- Experienced PMs encoding firm-specific approval hierarchies
+
+This is a marketplace moat: Procore can't enable this persona because custom governance undermines their platform control model.
+
+### Quality Gates
+
+Policy templates carry higher stakes than Skills (bad compliance = real liability):
+
+1. Peer review by verified domain expert before listing
+2. Jurisdiction tagging and validation
+3. Version control with full diff history
+4. Usage ratings and issue reporting
+5. Liability disclaimer (advisory, human judgment required)
+
+### Construction Vertical Funnel
+
+```
+MCP Wedge (free)              → "Connect Procore to AI you control"
+  Skills Marketplace (per-run)  → "Cross-system outcomes"
+    Policy Marketplace (per-project) → "Your rules govern the AI"
+      Enterprise (per-seat + governance) → "Full governance infrastructure"
+```
+
+Each tier creates demand for the next. Procore Helix accelerates every stage by creating buyers who've experienced AI but can't customize the rules.
+
+---
+
 ## The Bottom Line
 
 By open sourcing the tools and monetizing the marketplace, WORKWAY creates a virtuous cycle:
 
-1. **Developers build workflows** (using free tools)
-2. **Workflows attract customers** (solving real problems)
-3. **Customers pay for value** (10x cheaper than alternatives)
-4. **Revenue flows to developers** (70% share)
-5. **More developers join** (seeing success stories)
-6. **Ecosystem grows** (network effects)
-7. **WORKWAY captures value** (30% of growing pie)
+1. **Developers build Skills** (using free MCP tools)
+2. **Skills attract customers** (solving cross-system problems)
+3. **Customers need governance** (compliance, approval, audit)
+4. **Domain experts build Policy templates** (encoding expertise)
+5. **Policy attracts enterprise buyers** (governance infrastructure)
+6. **Revenue flows to creators** (70% share for both Skills and Policies)
+7. **Ecosystem grows** (two-sided network effects across Automation AND Judgment)
+8. **WORKWAY captures value** (30% of growing pie)
 
-**Target Year 3:** $1M MRR, 10,000 customers, 500 developers, $130M valuation
+**Target Year 3:** $1M MRR, 10,000 customers, 500 developers, 100 policy authors, $130M valuation
 
-**The future of automation is open source tools with proprietary marketplaces.**
+**The future of construction AI is open source connectivity, cross-system Skills, and user-controlled governance.**

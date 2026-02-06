@@ -292,14 +292,83 @@ Every successful WORKWAY developer isn't switching from Zapier—they're buildin
    - Managed service → Zapier/Make
    - Your control → WORKWAY
 
+## Construction Vertical: Procore Helix as Market Catalyst
+
+### The Competitive Reality (February 2026)
+
+Procore launched **Procore Helix** -- a full AI intelligence layer for construction with:
+- **Procore Assist**: Conversational AI embedded in the platform
+- **AI Agents**: Draft RFIs, manage submittals, generate reports
+- **Agent Builder**: No-code custom agent creation
+- **Developer Studio** (coming soon): Third-party AI development on Procore
+
+This is **good news** for WORKWAY's construction vertical. Procore spent the money to educate the market. The conversation shifts from "why AI?" to "which AI architecture?"
+
+### The Three-Tier Analysis
+
+The Three-Tier Framework (Database, Automation, Judgment) reveals the structural difference:
+
+**Procore Helix collapses all three control models into Procore-controlled:**
+- Database: Procore decides what AI can see (only Procore data)
+- Automation: Procore decides what agents can do (their templates)
+- Judgment: Procore defines the constraints (their defaults)
+
+**WORKWAY preserves the separation:**
+- Database: Application-controlled -- your MCP servers expose data from any system
+- Automation: Model-controlled -- your AI model (Claude, GPT, Gemini) reasons about what to do
+- Judgment: User-controlled -- your team defines policy artifacts that govern behavior
+
+### Why This Matters for Construction
+
+Construction is uniquely sensitive to the control model question:
+
+1. **Liability flows through documentation.** Who controls what AI sees determines what gets documented. Procore can't pull in meeting context, subcontractor emails, or external schedules.
+
+2. **Approval hierarchies are firm-specific.** Procore's Agent Builder offers generic templates. WORKWAY's Skills encode YOUR firm's specific approval chain.
+
+3. **Compliance varies by project.** A federal project needs different AI constraints than a commercial build. WORKWAY treats policy as a versioned artifact -- selectable per project, per jurisdiction, per client.
+
+### The Judgment Layer Pathway
+
+Procore Helix creates demand for governance that Procore can't offer:
+
+| Product | Framework Tier | Revenue Model |
+|---------|---------------|---------------|
+| MCP Wedge | Database (connectivity) | Free |
+| Skills Marketplace | Automation (outcomes) | Per-run |
+| Policy Marketplace | Judgment (governance) | Per-project |
+| Enterprise | Full stack | Per-seat + governance |
+
+**Policy as marketplace artifact**: Domain experts sell compliance templates, trust profiles, and approval workflows. Construction professionals encoding jurisdictional expertise -- a seller persona Procore can't enable because it would undermine their platform control.
+
+### Use Procore Helix when:
+- All your AI needs are Procore-only
+- You want zero-setup AI inside the tool you already use
+- You don't need custom compliance rules per project
+- Agent Builder's no-code approach fits your team
+
+### Use WORKWAY when:
+- Your projects span 8-12 tools (Procore + Slack + Sage + P6 + DocuSign + ...)
+- You need cross-system AI that pulls context from meetings, schedules, AND Procore
+- You need per-project compliance rules under your control
+- You want to choose your AI model and audit every decision
+- You're building a construction AI practice, not just consuming features
+
+### The "And" Positioning
+
+The smartest pitch: **Procore Helix + WORKWAY > Procore Helix alone.**
+
+WORKWAY doesn't replace Helix. It extends it across systems and puts your team in control of the governance layer. Buyers don't have to choose.
+
 ## Conclusion
 
 Let's be honest:
-- Zapier and Make are great products
-- They serve their market well
-- They include AI in reasonable ways
+- Zapier and Make are great products for general automation
+- Procore Helix is a strong first-party AI offering for Procore-only workflows
+- They each serve their markets well
 
-But they're tools for users.
-WORKWAY is a platform for builders.
+But they're tools for users within walled gardens.
+WORKWAY is infrastructure for builders who need cross-system reach and control.
 
 **We're not disrupting Zapier. We're enabling the developers who will.**
+**We're not competing with Procore Helix. We're extending it across everything else.**
